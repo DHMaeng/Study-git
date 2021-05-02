@@ -1,6 +1,6 @@
 [TOC]
 
-# LI
+# CLI
 
 Command Line Interface
 
