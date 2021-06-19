@@ -89,7 +89,9 @@ Initialized empty Git repositroy in C:/Users/student/git_basic/.git/
 
 #### (중요) git 프로젝트를 종료
 
-- `.git`  폴더 삭제
+- `rm -rf .git` : `.git`  지우기
+
+
 
 ### 2. `git status`
 
@@ -151,12 +153,18 @@ nothing to commit, working tree clean
 
 > 스냅샷 & 버전 생성
 
-- `git commit --amend [파일명]` : (주의) 최종 커밋 메시지 변경
+- `git commit --amend [파일명]` : (주의) 최종 커밋 메시지 변경(파일명 안적어도 됌)
+
+> 그 이외의 커밋메시지 
+
+https://velog.io/@mayinjanuary/git-%EC%BB%A4%EB%B0%8B-%EB%A9%94%EC%84%B8%EC%A7%80-%EC%88%98%EC%A0%95%ED%95%98%EA%B8%B0-changing-commit-message
 
 > add와 commit을 한번에
 
 - `git commit -am "커밋 메시지"`
 - 새로 만든 파일일 경우 add를 한번 해줘야 동작이 가능
+
+
 
 ##### commit 의 구성요소
 
@@ -252,5 +260,4 @@ nothing to commit, working tree clean
 ### 15. `git reset --hard [commit id` ]
 
 > commit id로 리셋 하겠다. 이 아이디의 버전이 되겠다
-
 
