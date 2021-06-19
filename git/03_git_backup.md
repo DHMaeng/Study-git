@@ -17,6 +17,12 @@
 
 
 
+### 2-1 `git remote remove origin`
+
+기존 리포지토리 remote 제거
+
+
+
 ### 3. `git push [이름] [브랜치]`
 
 - git push -u origin master
